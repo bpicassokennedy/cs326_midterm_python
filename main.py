@@ -29,7 +29,7 @@ def is_palindrome(s): # same logic used as the c++ program
     return True
 
 def main():
-    while True: # python syntatically does not support a do while loop! 
+    while True: # python syntatically does not support a do while loop! this works to mimic do while loop behavior
         choice = menu()
         if choice == 1: # user wants to enter a word, phrase, or sequence!
             input = user_input()
