@@ -19,6 +19,5 @@ def main():
         print(input, "is a palindrome! :)")
     else:
         print(input, "is not a palindrome :(")
-
 if __name__ == "__main__":
     main()
