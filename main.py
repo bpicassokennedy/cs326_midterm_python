@@ -1,5 +1,5 @@
 # Programmer: Bella Picasso-Kennedy 
-# Purpose: CS 326 Midterm - Palindrome Checker 
+# Purpose: CS 326 Midterm - Palindrome Checker in Python
 
 def menu():
     print("--- PALINDROME CHECKER! ---")
