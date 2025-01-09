@@ -1,3 +1,6 @@
+# Programmer: Bella Picasso-Kennedy 
+# Purpose: CS 326 Midterm - Palindrome Checker 
+
 def user_input():
     word = input("Enter a word to check if it's a palindrome: ")
     return word
