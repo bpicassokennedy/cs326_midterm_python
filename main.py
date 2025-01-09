@@ -15,6 +15,7 @@ def is_palindrome(s): # same logic used as the c++ program
     return True
 
 def main():
+    print("---- PALINDROME CHECKER ----")
     input = user_input()
     palindrome = is_palindrome(input)
     if palindrome:
