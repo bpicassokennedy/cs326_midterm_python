@@ -20,8 +20,9 @@ def user_input():
     return word
 
 def is_palindrome(s): # same logic used as the c++ program
-    n = len(s)
     s = s.lower() # convert string to all lowercase, so the program is not case-sensitive
+    s = s.replace(" ", "") # removes spaces in between phrases! ex. nurses run -> nursesrun
+    n = len(s)
     for i in range(n//2): # for integer division, would not accept a float, resulted in runtime error
         if s[i] != s[n - i - 1]:
             return False
