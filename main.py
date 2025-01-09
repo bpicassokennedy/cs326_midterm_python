@@ -37,7 +37,7 @@ def main():
             if palindrome:
                 print(input, "is a palindrome! :)\n")
             else:
-                print(input, "is not a palindrome :(\n")
+                print(input, "is not a palindrome... :(\n")
         else:
             print("Goodbye! :)")
             break
