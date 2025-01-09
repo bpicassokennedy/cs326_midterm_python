@@ -16,7 +16,7 @@ def menu():
 
 def user_input():
     word = input("Enter a word to check if it's a palindrome: ")
-    word = word.strip() # new string with leading and trailing spaces removed
+    word = word.strip() # new string with leading and trailing spaces removed!
     return word
 
 def is_palindrome(s): # same logic used as the c++ program
