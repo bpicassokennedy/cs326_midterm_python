@@ -3,6 +3,7 @@
 
 def user_input():
     word = input("Enter a word to check if it's a palindrome: ")
+    word = word.strip() # returns new string with leading and trailing spaces removed
     return word
 
 def is_palindrome(s): # same logic used as the c++ program
@@ -15,7 +16,7 @@ def is_palindrome(s): # same logic used as the c++ program
 def main():
     input = user_input()
     palindrome = is_palindrome(input)
-    if (palindrome):
+    if palindrome:
         print(input, "is a palindrome! :)")
     else:
         print(input, "is not a palindrome :(")
